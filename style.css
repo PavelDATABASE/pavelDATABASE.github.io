@@ -1,0 +1,144 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background-color: #F8F8FF;
+	font-family: Arial;
+	
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+.header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: #1f1d3c;
+	z-index: 10;
+}
+.header__inner{
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container{
+	max-width: 1030px;
+	width: 100%;
+	padding: 0px 15px;
+	margin: 0 auto;
+}
+
+.button__list{
+	width: 500px;
+	display: flex;
+	justify-content: space-between;
+}	
+
+.button__item{
+	color: #fff;
+	min-width: 150px;
+	height: 50px;
+	background: #2e4ef0;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all .3s;
+	border-radius: 6px;
+	padding: 10px;
+}
+
+.button__item:hover{
+	background: #4766ff;
+}
+
+.button__link{
+	color: #fff;
+	/*max-width: 100%;*/
+	height: 50px;
+	display:flex;
+	align-items: center;
+	padding: 10px;
+}
+
+.logo{
+	max-width: 50px;
+	height: 50px;
+	width: 100%;
+}
+
+.logo img{
+	width: 100%;
+	height: 100%;
+}
+
+.content{
+	margin-top: 80px;
+}
+
+.content__image{
+	margin: 0 auto;
+	width: 100%;
+	height: 350px;
+	padding: 10px 0px;
+}
+.content__image img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	border-radius: 12px;
+}
+
+.content__title{
+	margin-top: 30px;
+	font-size: 35px;
+	font-weight: 700;
+	padding: 15px 0px;
+}
+
+.content__item{
+	padding: 15px 0px;
+}
+
+.content__item-title{
+	font-size: 28px;
+	font-weight: 600;
+	padding: 5px 0px;
+}
+
+.content__item-text{
+	font-size: 18px;
+	padding: 5px 0px;
+
+}
+
+.content__title1{
+	margin-top: 30px;
+	font-size: 35px;
+	font-weight: 700;
+	padding: 10px 0px;
+}
+.content__item-text1{
+	font-size: 20px;
+	padding: 5px 0px;
+	transition: all .2s;
+}
+.content__item-text1:hover{
+	font-size: 20px;
+	padding: 5px 0px;
+    border-left: 3px solid rgb(164 26 181 / 84%);;
+    padding-left: 12px;
+}
+.content__item-text2{
+	font-size: 20px;
+	padding: 5px 0px;
+}
