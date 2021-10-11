@@ -142,3 +142,43 @@ a{
 	font-size: 20px;
 	padding: 5px 0px;
 }
+.container__left{
+	max-width: 300px;
+	width: 300px;
+	height: 600px;
+	padding: 0px 30px;
+	position: fixed;
+	margin-top: 0px;
+	text-align: center;
+	align-items: center;
+}
+.sectionesag {
+  width: 195px;
+  height: 3px;
+  background: #498a2d;
+  margin: 23px auto;
+}
+.container__object{
+
+	height: 250px;
+	/*background-color: #DCDCDC;*/
+
+}
+.container__object-mini{
+	width: 250px;
+	height: 250px;
+	padding: 15px;
+}
+.container__object-mini img{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+.object__name{
+font-size: 20px;
+text-transform: uppercase;
+}
+.object__star{
+	color: #53b32b;
+	margin-top: 10px;
+}
