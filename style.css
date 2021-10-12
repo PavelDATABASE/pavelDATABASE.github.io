@@ -144,19 +144,23 @@ a{
 }
 .container__left{
 	max-width: 300px;
-	width: 300px;
+	width: 270px;
 	height: 600px;
-	padding: 0px 30px;
+	padding: 0px 0px;
 	position: fixed;
 	margin-top: 0px;
 	text-align: center;
 	align-items: center;
+	display: grid;
+	justify-content: flex-end;
 }
 .sectionesag {
-  width: 195px;
+  width: 170px;
   height: 3px;
   background: #498a2d;
   margin: 23px auto;
+
+
 }
 .container__object{
 
@@ -167,7 +171,7 @@ a{
 .container__object-mini{
 	width: 250px;
 	height: 250px;
-	padding: 15px;
+
 }
 .container__object-mini img{
 width: 100px;
@@ -181,4 +185,11 @@ text-transform: uppercase;
 .object__star{
 	color: #53b32b;
 	margin-top: 10px;
+}
+.container__right{
+	right:20px;
+	max-width: 280px;
+	width: 250px;
+	height: 300px;
+	position: absolute;
 }
